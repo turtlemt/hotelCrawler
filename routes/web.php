@@ -17,3 +17,5 @@ Route::get('/', function () {
 
 Route::get('status/index', 'StatusController@index');
 Route::get('hotelcrawler/process', 'HotelCrawlerController@process');
+Route::get('hotelcrawler/add', 'HotelCrawlerController@addHotel');
+Route::post('hotelcrawler/add', 'HotelCrawlerController@addHotelPost');

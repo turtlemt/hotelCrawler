@@ -38,6 +38,17 @@ class HotelCrawlerController extends Controller
     }
 
     /**
+     * Parser crawler data
+     *
+     * @param  Request  $request
+     * @return Response
+     */
+    public function addHotel(Request $request)
+    {
+        return view('hotel.add');
+    }
+
+    /**
      * Store a new user.
      *
      * @param  Request  $request
